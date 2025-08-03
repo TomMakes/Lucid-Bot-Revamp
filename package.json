@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-tutorial",
+  "version": "0.0.1",
+  "description": "My first attempt at making a discord bot!",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thoma Ruski",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "eslint": "^9.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
