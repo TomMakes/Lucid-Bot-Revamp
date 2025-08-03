@@ -7,7 +7,9 @@
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
     "dev": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "author": "Thoma Ruski",
   "license": "ISC",
@@ -16,8 +18,12 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.1.0",
     "eslint": "^9.10.0",
+    "jest": "^30.0.5",
+    "jsdom": "^26.1.0",
+    "ts-jest": "^29.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   }
