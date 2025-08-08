@@ -1,28 +1,34 @@
 # Discord Bot Tutorial - TypeScript
 
-A Discord bot built with TypeScript using discord.js v14.
+A Discord bot that will be used to replace Lucid Bot.
+Right now it is very much in development.
 
 ## Setup
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+1. **Set up Discord Bot:**
+   - Go to Discord Developer Portal
+   - Create application/bot
+   - Navigate to Bot tab
+   - Copy bot token (click "Reset Token" under Token header, you can reset unlimited times)
+   - Navigate to OAuth2 tab
+   - Select these scopes: bot, applications.commands
+   - Copy the Generated URL towards bottom of page
+   - Paste that into web broswer and invite bot to desired server
 
-2. Create a `.env` file based on `.env.example` and add your Discord bot token:
-   ```
-   DISCORD_TOKEN=your_discord_bot_token_here
-   ```
-
-3. Build the TypeScript code:
-   ```bash
-   npm run build
-   ```
-
-4. Start the bot:
-   ```bash
-   npm start
-   ```
+2. **Get the environment set up**
+   - Open up a command prompt or other terminal inside this folder.
+   - Install dependencies:
+      ```bash
+      npm install
+      ```
+   - Create a `.env` file based on `.env.example` and add your Discord bot token:
+      ```
+      DISCORD_TOKEN=your_discord_bot_token_here
+      ```
+   - Start the bot:
+      ```bash
+      npm run start
+      ```
 
 ## Development
 
